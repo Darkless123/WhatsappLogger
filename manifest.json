@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Manday Logger",
+  "version": "1.1",
+  "description": "Right-click WhatsApp text messages to process and log into Excel.",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://web.whatsapp.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
